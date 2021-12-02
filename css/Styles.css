@@ -2,37 +2,57 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+.jumbotron{
+    background-image: url(/images/Jumbo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    color: white;
+    font-weight: bolder;
+}
+
+.jumbotron h2{
+    font-weight: bolder
+}
+
 .btn-select{
-    color: #fff;
-  background-color: cornflowerblue;
-  border-color: #007bff;
+    color: rgb(122, 121, 121);
+    background-color: #F7CDCD;
+    border-color: #F7CDCD;
 } 
 
 
 main {
-    background-color: #eff4f7;
+    background-color: #FCEEEE ;
     height: auto;
     margin-bottom: 2rem;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
+
 /* .row{
-    display: inline;
+    
 } */
 
 .leftCol{
-    background-color: #d1e6f2;
+    background-color: #F7CDCD;
     height: auto;
+    color: #008A00;
 }
 
 
 .rightCol{
-    background-color: #007abd;
+    background-color: #D12121;
     height: auto;
 }
 
 
 .centerRight{
-    background-color: #bad8e9;
+    background-color: #D12121;
     height: auto;
 }
 
@@ -59,13 +79,13 @@ main {
 
 .card{
     margin-top: 1rem !important;
-    background-color: #bad8e9;
+    background-color: #D12121;
     border: none;
 }
 
 i{
     font-size: 2rem; 
-    color: cornflowerblue;
+    color: #D12121;
     margin-left: 45%;
 }
 
@@ -81,6 +101,7 @@ i{
 footer {
  background-color: #e9ecef ;
  padding-top: 3rem;
+ color: #008A00;
 }
 
 span {
