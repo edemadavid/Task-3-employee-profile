@@ -66,6 +66,7 @@ main {
 i{
     font-size: 2rem; 
     color: cornflowerblue;
+    margin-left: 45%;
 }
 
 .nav {
@@ -85,21 +86,28 @@ footer {
 span {
     font-weight: 600;
 }
-.container {
+/* .container {
     
-}
+} */
 
 
 .services {
     list-style-type: none;
 }
 
-.footer-section {
+/* .footer-section {
     padding-left: 10rem;
-}
+} */
 
 
 .copyright {
     text-align: center;
 
+}
+
+@media screen and (max-width: 450px) {
+    .copyright {
+        text-align:left;
+    
+    }
 }
